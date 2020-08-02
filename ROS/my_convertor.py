@@ -13,7 +13,7 @@ def convert_q_to_e(v, r, p, t):
 	cosr_cosp = 1- 2*(r**2 + p**2)
 	euler_roll = np.arctan2(sinr_cosp, cosr_cosp)
         sinp = 2*(v*p - t*r)
-	euler_pitch = np.where(np.abs(sinp) >=1, np.sign(sinp) * (3.14159/2),  np.arcsin(sinp))
+	euler_pitch = np.where( np.abs(sinp) >=1,np.sign(sinp)*(3.14159/2),np.arcsin(sinp) )
         return euler_roll, euler_pitch, euler_yaw
 def callback(msg):
 	final.data=convert_q_to_e(msg.r,msg.p,msg.t,msg.v)
