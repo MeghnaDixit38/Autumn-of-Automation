@@ -1,4 +1,9 @@
 # Table of contents
 
-* [Autumn-of-Automation](README.md)
+* [AEROVE](README.md)
+
+## AEROVE
+
+* [Udacity course](aerove/udacity-course.md)
+* [Paper Summary](aerove/paper-summary.md)
 
