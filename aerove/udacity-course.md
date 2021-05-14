@@ -1,4 +1,4 @@
-# Udacity course
+# Udacity course \[part 03: mod 01, 02\]
 
 Module 3.1:
 
